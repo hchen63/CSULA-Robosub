@@ -34,3 +34,16 @@ What is a serial monitor? What does the number in Serial.begin() mean (Hint: wha
 How would you control 3 LEDs instead of 1?
 How would you control an analog component, i.e. potentiometer?
 What kind of signal is a PWM and how does it work?
+
+Keyboard Shortcuts:
+Ctrl + C: copy
+Ctrl + X: cut
+Ctrl + V: paste
+Ctrl + (arrow key, i.e. left arrow/right arrow): skip through text
+Ctrl + Shift + (arrow key, i.e. left arrow/right arrow): simultaneously skip through text and highlight it
+Home: resets the cursor at the beginning of a line
+End: sets the cursor to the end of a line
+double click: highlights a word (or variable name)
+Ctrl + F: Find, opens pop-up that can also Find and Replace
+Ctrl + Shift + M: open Serial Monitor
+Ctrl + T: Auto format code in the IDE
