@@ -2,13 +2,13 @@
 
 Servo myservo;  // create servo object to control a servo
 
-int potpin = 0;  // analog pin used to connect the potentiometer
+const int servoPin = 3;
+const int potpin = 0;  // analog pin used to connect the potentiometer
 int val;    // variable to read the value from the analog pin
 
 void setup() {
   Serial.begin(9600);
-  myservo.attach(3);  // attaches the servo on pin 9 to the servo object
-  Serial.begin(9600);
+  myservo.attach(servoPin);  // attaches the servo on pin 9 to the servo object
 }
 
 void loop() {
