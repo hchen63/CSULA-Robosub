@@ -1,0 +1,25 @@
+
+Concepts covered:
+review of using common power and ground on a breadboard
+looking up datasheets
+using 180 degree rotation servo
+Using Servo library
+when to use const int vs int
+analogRead (reading an analog signal)
+servo.attach(pin#)
+servo.write(angle)
+using a potentiometer 
+variable resistance (how a potentiometer works)
+using a Multimeter
+map (value, range1Start, range1End, range2Start, range2End)
+review of using Serial monitor
+Using Github to track changes in code
+Git vs. Github
+Version Control
+
+Project:
+Control the angle of a Servo using a potentiometer
+
+Take home:
+Draw the schematic for the circuit we used
+Learn how a continuous rotation servo works
